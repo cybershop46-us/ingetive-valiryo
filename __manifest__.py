@@ -1,7 +1,7 @@
 {
     'name': 'Pyament Transanction',
     'version': '1.0',
-    'author': 'Hunain',
+    'author': 'cybershop46',
     'category': 'Finanance',
     'summary': 'none',
     'description': """

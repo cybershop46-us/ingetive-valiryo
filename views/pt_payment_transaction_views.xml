@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<record id="action_pt_payment_transanction" model="ir.actions.act_window">
+    <field name="name">Paymen Transaction</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">payment.transaction</field>
+    <field name="view_mode">tree,form</field>
+</record>
+<record id="pt_payment_transanction_view_form" model="ir.ui.view">
+    <field name="name">pt.payment.transanction.view.form</field>
+    <field name="model">payment.transaction</field>
+        <field name="arch" type="xml">
+           <form string="Pyament Transanction">
+        <sheet>
+           <group>
+                <group>
+                    <field name="stripe_payment_intent"  class="text-left" required="1"/>
+                </group>
+            </group>
+            </sheet>
+         </form>
+    </field>
+</record>
+    <menuitem
+        id="pt_payment_transaction"
+        name="Payment Transanction"
+        action="action_pt_payment_transanction"    
+        sequence="10"/>
+
+</odoo>

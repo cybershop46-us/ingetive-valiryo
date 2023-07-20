@@ -3,7 +3,7 @@
     'version': '1.0',
     'author': 'cybershop46',
     'category': 'Finanance',
-    'summary': 'none',
+    'summary': 'Odoo sh',
     'description': """
     """,
     'depends': [

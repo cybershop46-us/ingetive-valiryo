@@ -1,5 +1,5 @@
 {
-    'name': 'Pyament Transanction',
+    'name': 'Pyament Transanction Stripe',
     'version': '1.0',
     'author': 'cybershop46',
     'category': 'Finanance',
